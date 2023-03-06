@@ -1,6 +1,22 @@
-import React from 'react';
-import '../../App.css';
+import "../../App.css";
+import React, { useState } from "react";
+import { Login } from "./login";
+import { Register } from "./regester";
 
 export default function SignUp() {
-  return <h1 className='sign-up'>LIKE & SUBSCRIBE</h1>;
+  const [currentForm, setCurrentForm] = useState("login");
+
+  const toggleForm = (formName) => {
+    setCurrentForm(formName);
+  };
+
+  return (
+    <div className="sign-up">
+      {currentForm === "login" ? (
+        <Login onFormSwitch={toggleForm} />
+      ) : (
+        <Register onFormSwitch={toggleForm} />
+      )}
+    </div>
+  );
 }

@@ -1,10 +1,12 @@
 .cards {
   padding: 4rem;
-  background: #fff;
+  background: rgb(34, 32, 32);
+  
 }
 
 h1 {
   text-align: center;
+  color: rgb(240, 232, 232);
 }
 
 .cards__container {
@@ -14,6 +16,7 @@ h1 {
   max-width: 1120px;
   width: 90%;
   margin: 0 auto;
+  
 }
 
 .cards__wrapper {
@@ -30,6 +33,7 @@ h1 {
   flex: 1;
   margin: 0 1rem;
   border-radius: 10px;
+  background-color:#111113
 }
 
 .cards__item__link {
@@ -65,9 +69,10 @@ h1 {
   max-width: calc((100%) - 60px);
   font-size: 12px;
   font-weight: 700;
-  color: #fff;
-  background-color: #1f98f4;
+  color: rgb(255, 249, 249);
+  background-color: #d44f91;
   box-sizing: border-box;
+  border-radius: 12px;
 }
 
 .cards__item__img {
@@ -94,7 +99,7 @@ h1 {
 }
 
 .cards__item__text {
-  color: #252e48;
+  color: #e8e8f5;
   font-size: 18px;
   line-height: 24px;
 }

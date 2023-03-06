@@ -1,6 +1,13 @@
-import React from 'react';
-import '../../App.css';
-
+import React from "react";
+import "../../App.css";
+import Hero from "./BS";
+import slides from "./hotel.json";
+import Cardhotel from "./HotelCard";
 export default function Services() {
-  return <h1 className='services'>SERVICES</h1>;
+  return (
+    <>
+      <Hero slides={slides} />
+      <Cardhotel />
+    </>
+  );
 }

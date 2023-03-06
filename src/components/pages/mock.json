@@ -1,0 +1,19 @@
+[
+    {
+      "image": "https://images.wallpaperscraft.com/image/single/travel_rock_forest_167729_1920x1080.jpg",
+      "title": "Chilika Lake",
+      "subTitle": " Largest brackish water lake"
+    },
+    {
+      "image": "https://images.wallpaperscraft.com/image/single/travel_rocks_alone_188412_1920x1080.jpg",
+      "title": "Satkosia Tiger Reserve",
+      "subTitle": "Explore the diverse flora and fauna",
+      "interval": 500
+    },
+    {
+      "image": "https://images.wallpaperscraft.com/image/single/loneliness_alone_rocks_174770_1920x1080.jpg",
+      "title": "Khandagiri Caves",
+      "subTitle": "Explore the beautiful motifs and carvings",
+      "interval": 2500
+    }
+  ]
